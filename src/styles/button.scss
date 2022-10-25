@@ -1,0 +1,37 @@
+.button {
+    height: 35px;
+    border-radius: 7px;
+    font-weight: 900;
+    background: var(--yellow);
+    color: #fff;
+    padding: 8px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+    border: 0;
+
+    transition: filter 0.2s;
+
+    &.outlined {
+        background: none;
+        border: 3px solid var(--light-gray);
+    }
+
+    &.marked {
+        background: none;
+        border: 3px solid var(--yellow);
+        color: var(--yellow);
+    }
+
+    &.invisible {
+        background: none;
+    }
+
+    &.gray {
+        color: var(--gray);
+        background: var(--dark-gray);
+    }
+}

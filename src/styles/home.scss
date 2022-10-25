@@ -1,0 +1,55 @@
+#header {
+    background: var(--purple);
+    padding-bottom: 1px;
+    
+    #navbar {
+        align-items: center;
+        
+        #logoImg {
+            img {
+                margin: 40px 50px;
+            }
+        }
+        
+        #userImg {
+            img {
+                position: absolute;
+                right: 50px;
+                margin-top: 25px
+            }
+        }
+    }
+    
+    #welcome {
+        img {
+            display: block;
+            max-width: 500px;
+            width: 100%;
+            margin: auto;
+        }
+        
+        h1 {
+            font-size: 40px;
+            font-weight: 900;
+            text-align: center;
+            margin: 15px 0;
+            color: var(--yellow);
+        }
+        
+        p {
+            text-align: center;
+            margin: auto;
+            max-width: 320px;
+            width: 100%;
+            color: #fff;
+        }
+        
+        .buttons {
+            margin: 35px;
+            
+            .button:nth-child(1) {
+                margin-right: 20px
+            }
+        }
+    }    
+}

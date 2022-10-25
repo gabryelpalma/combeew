@@ -4,9 +4,9 @@
       --soft-purple: #3A2663;
       --purple: #261251;
       --dark-purple: #342F3E;
-      --soft-gray: #D9D9D9;
       --footer-soft-gray: #646464;
       --footer-dark-gray: #545454;
+      --soft-gray: #D9D9D9;
       --light-gray: #4B4C47;
       --medium-gray: #2C2D2B;
       --dark-gray: #1F1F1F;
@@ -31,4 +31,17 @@ body {
       color: var(--light-gray);
 }
 
+.buttons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+@media only screen and (min-width: 600px) {
+      body {
+            max-width: 1024px;
+            width: 100%;
+            margin: auto;
+      }
+}
 // 300 light, 400 regular, 700 bold, 900 black
