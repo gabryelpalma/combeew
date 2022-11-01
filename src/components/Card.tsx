@@ -1,7 +1,9 @@
-export function Card() {
-    return (
-        <div className="card">
-            <img src="" alt="" />
-        </div>
-    )
+import "../styles/card.scss";
+
+export function Card({ ...props }) {
+  return (
+    <a className="card">
+      <img className="cropped" {...props} />
+    </a>
+  );
 }
