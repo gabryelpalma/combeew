@@ -7,6 +7,7 @@ type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
   isInvisible?: boolean;
   isGray?: boolean;
   isOutlined?: boolean;
+  isCatalogo?: boolean;
 };
 
 export function Button({
@@ -14,6 +15,7 @@ export function Button({
   isMarked = false,
   isInvisible = false,
   isGray = false,
+  isCatalogo = false,
   ...props
 }: ButtonProps) {
   return (
@@ -27,6 +29,8 @@ export function Button({
           ? "invisible"
           : "" || isGray
           ? "gray"
+          : "" || isCatalogo
+          ? "catalogo"
           : ""
       }`}
       {...props}

@@ -45,8 +45,12 @@ export function Home() {
       <div id="games">
         <h1 className="title-purple">Populares no mês</h1>
         <p>confira os jogos mais avaliados dos últimos dias</p>
-        
-        <Card src="https://image.api.playstation.com/vulcan/ap/rnd/202206/0300/E2vZwVaDJbhLZpJo7Q10IyYo.png" />
+
+        <div className="cards">
+          <Card src="https://image.api.playstation.com/vulcan/ap/rnd/202206/0300/E2vZwVaDJbhLZpJo7Q10IyYo.png" />
+          <Card src="https://cdn1.epicgames.com/offer/3ddd6a590da64e3686042d108968a6b2/EGS_GodofWar_SantaMonicaStudio_S2_1200x1600-fbdf3cbc2980749091d52751ffabb7b7_1200x1600-fbdf3cbc2980749091d52751ffabb7b7" />
+          <Card src="https://www.minecraft.net/content/dam/games/minecraft/key-art/Games_Subnav_Minecraft-300x465.jpg" />
+        </div>
       </div>
 
       <div id="how-it-works">

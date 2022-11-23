@@ -1,118 +1,164 @@
 .buttons {
-    margin: 35px;
-            
-   .button:nth-child(1) {
-        margin-right: 20px
-   }
+  margin: 35px 0;
+
+  .button:nth-child(1) {
+    margin-right: 20px;
+  }
 }
 
 header {
-    background: var(--purple);
-    padding-bottom: 1px;
-    
-    #welcome {
-        img {
-            display: block;
-            max-width: 500px;
-            width: 100%;
-            margin: auto;
-        }
-        
-        h1 {
-            font-size: 40px;
-            font-weight: 900;
-            text-align: center;
-            margin: 15px 0;
-            color: var(--yellow);
-        }
-        
-        p {
-            text-align: center;
-            margin: auto;
-            max-width: 320px;
-            width: 100%;
-            color: #fff;
-        }
-    }    
+  background: var(--purple);
+  padding-bottom: 1px;
+
+  #welcome {
+    img {
+      display: block;
+      max-width: 500px;
+      width: 100%;
+      margin: auto;
+    }
+
+    h1 {
+      font-size: 40px;
+      font-weight: 900;
+      text-align: center;
+      margin: 15px 0;
+      color: var(--yellow);
+    }
+
+    p {
+      text-align: center;
+      margin: auto;
+      max-width: 320px;
+      width: 100%;
+      color: #fff;
+    }
+  }
 }
 
-#games{
-    h1 {
+#games {
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 41px;
+    color: var(--purple);
+  }
+
+  p {
+    text-align: center;
+    color: #4b4c47;
+    font-weight: 700;
+  }
+
+  .cards {
+    display: flex;
+    overflow: hidden;
+    max-width: 500px;
+    width: 100%;
+    margin: 40px auto 100px auto;
+
+    .card:nth-child(1),
+    .card:nth-child(2) {
+      margin-right: 25px;
+    }
+  }
+}
+
+#how-it-works {
+  background: var(--dark-gray);
+  padding: 50px;
+
+  .item-works {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+
+    .bg-purple {
+      background: var(--dark-purple);
+      border-radius: 10px;
+      padding: 20px;
+    }
+
+    .bg-yellow {
+      background: var(--dark-yellow);
+      border-radius: 10px;
+      padding: 20px;
+    }
+
+    .img-works {
+      width: 50px;
+    }
+
+    .item-text {
+      margin-left: 20px;
+
+      .secondary-purple {
+        font-size: 18px;
+        font-weight: 700;
+        color: var(--light-purple);
+        max-width: 250px;
+      }
+
+      .secondary-yellow {
+        font-size: 18px;
+        font-weight: 700;
+        color: var(--yellow);
+        max-width: 250px;
+      }
+
+      .text-purple {
+        font-size: 14px;
+        font-weight: 400;
+        margin-top: 5px;
+        color: var(--light-purple);
+        max-width: 320px;
+      }
+
+      .text-yellow {
+        font-size: 14px;
+        font-weight: 400;
+        margin-top: 5px;
+        color: var(--yellow);
+        max-width: 320px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  header {
+    #welcome {
+      max-width: 1000px;
+      width: 100%;
+      margin: auto;
+      padding-left: 45px;
+      display: flex;
+
+      h1 {
         font-size: 40px;
         font-weight: 900;
-        text-align: center;
-        margin: 15px 0;
-        color: var(--purple);
-    }
-            
-    p {
-        text-align: center;
-        margin: auto;
-        max-width: 500px;
+        text-align: left;
+        color: var(--yellow);
+      }
+
+      p {
+        padding: 0;
+        margin: 0;
+        text-align: left;
+        max-width: 320px;
         width: 100%;
-        color: #4B4C47;
-        font-weight: 700;
+        color: #fff;
+      }
+
+      .buttons {
+        align-items: left;
+        justify-content: left;
+      }
     }
-}
-        
-#how-it-works{    
-    background: var(--dark-gray);
-    padding: 50px;
-      
-    .item-works {
-        display: flex;
-        align-items:center;
-        justify-content: center;
-        margin-bottom: 40px;
-        
-        .bg-purple {
-            background: var(--dark-purple);
-            border-radius: 10px;
-            padding: 20px;
-        }
-     
-        .bg-yellow {
-            background: var(--dark-yellow);
-            border-radius: 10px;
-            padding: 20px;
-        }      
-        
-        .img-works {
-            width: 50px;
-        }
-     
-        .item-text {
-            margin-left: 20px;
-            
-            .secondary-purple{
-                font-size: 20px;
-                font-weight: 700;
-                color: var(--light-purple);
-                max-width: 250px;      
-            }
-            
-            .secondary-yellow{
-                font-size: 20px;
-                font-weight: 700;
-                color: var(--yellow);
-                max-width: 250px;
-            }
-            
-            .text-purple{
-                font-size: 14px;
-                font-weight: 400;
-                margin-top: 5px;
-                color: var(--light-purple);
-                max-width: 320px;             
-            }
-            
-            .text-yellow{
-                font-size: 14px;
-                font-weight: 400;
-                margin-top: 5px;
-                color: var(--yellow);
-                max-width: 320px;             
-            } 
-        }
-     } 
+  }
 }
