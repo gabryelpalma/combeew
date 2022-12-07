@@ -1,37 +1,50 @@
 .button {
-    height: 35px;
-    border-radius: 7px;
-    font-weight: 900;
-    background: var(--yellow);
-    color: #fff;
-    padding: 8px;
+  height: 35px;
+  border-radius: 7px;
+  font-weight: 900;
+  background: var(--yellow);
+  color: #fff;
+  padding: 8px;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    cursor: pointer;
-    border: 0;
+  cursor: pointer;
+  border: 0;
 
-    transition: filter 0.2s;
+  transition: filter 0.2s;
 
-    &.outlined {
-        background: none;
-        border: 3px solid var(--light-gray);
-    }
+  &.outlined {
+    background: none;
+    border: 3px solid var(--light-gray);
+    font-weight: 500;
+    border-radius: 12px;
+  }
 
-    &.marked {
-        background: none;
-        border: 3px solid var(--yellow);
-        color: var(--yellow);
-    }
+  &.outlined:hover {
+    background: none;
+    border: 3px solid var(--yellow);
+    color: var(--yellow);
+  }
+  
+  &.invisible {
+    background: none;
+    font-size: 12px;
+  }
 
-    &.invisible {
-        background: none;
-    }
+  &.gray {
+    color: var(--gray);
+    background: var(--dark-gray);
+  }
 
-    &.gray {
-        color: var(--gray);
-        background: var(--dark-gray);
-    }
+  &.catalogo {
+    color: var(--dark-gray);
+    background: var(--soft-gray);
+    border-radius: 2px;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    margin: 10px 20px;
+  }
 }

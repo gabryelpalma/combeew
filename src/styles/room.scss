@@ -1,0 +1,150 @@
+#headerRoom {
+  height: 300px;
+  background: linear-gradient(rgba(31, 31, 31, 0), 
+  rgba(31, 31, 31, 0.1), 
+  rgba(31, 31, 31, 1)), 
+  url("https://adrenaline.com.br/uploads/2022/07/22/77332/stary-3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#container {
+  background-color: var(--dark-gray);
+  padding-bottom: 20px;
+}
+ 
+.game-information{
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  color: var(--snow);
+  
+  
+  
+ .title-white{
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    margin: 15px 0;
+ }
+ 
+ .subtitle{
+    margin: auto;
+    max-width: 430px;
+    width: 100%;
+    margin-bottom: 25px;
+ 
+    strong {
+      font-weight: 700;
+    }
+  }
+ 
+  .login {
+    font-size: 10px;
+    margin-bottom: 25px;
+    
+    a {
+      color: var(--yellow);
+      font-size: 10px;
+    }
+  }
+ 
+ .stars{
+        text-align: center;
+        
+        img {
+          width: 30px;
+        }
+        
+        img:hover {
+          filter: invert(68%) sepia(98%) saturate(1207%) hue-rotate(354deg) brightness(103%) contrast(102%);
+          cursor: pointer;
+        }
+        
+        img:nth-child(1),
+        img:nth-child(2),
+        img:nth-child(3),
+        img:nth-child(4) {
+          margin-right: 10px
+        }
+        
+        p {
+          color: var(--light-gray);
+          font-size: 12px;
+          margin-bottom: 30px
+        }
+    }
+    
+ 
+  #information{
+   display: flex;
+  
+    .details {
+      display: flex;
+      
+      #avaiableon {
+        margin-right: 60px;
+      }
+      
+      #genres, #avaiableon {          
+        .buttonsRoom {
+          display:flex;
+        }  
+        
+        h3 {
+          text-align: left;
+          color: var(--light-gray);
+          font-weight: 700;
+          font-size: 14px;
+          margin-bottom: 10px 
+        }
+        
+        Button {
+          font-size: 12px;
+          margin-bottom: 20px;
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+
+  .caption {
+    font-weight: 300;
+  }
+
+  .separator {
+    width: 430px;
+    height: 2px;
+    background-color: var(--light-gray);
+    margin: 30px auto;
+  }
+
+  .buttons-game{
+    margin: 0 auto 45px auto;
+    display: flex;
+    
+    .button:nth-child(1){
+      font-weight: 700;
+      width: 250px;
+      padding: 10px 40px;
+      margin-right: 20px;
+    }
+   
+    .button:nth-child(2) {
+      font-weight: 700;
+      width: 250px;
+      margin-right: 20px;
+      background-color: var(--light-gray);  
+      padding: 10px 40px;
+    }
+  }
+  
+  .examples {
+    margin-bottom: 5px;
+  }
+  
+  .endpage {
+    margin-bottom: 40px;
+  }
+}
+  

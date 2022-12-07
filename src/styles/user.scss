@@ -1,0 +1,27 @@
+#header {
+  align-items: center;
+}
+.user-area {
+  align-items: center;
+  img {
+    display: block;
+    max-width: 500px;
+    width: 50%;
+    margin: auto;
+  }
+}
+.configuration {
+  Button {
+    margin: 10px 0;
+    align-items: center;
+  }
+}
+.favorite-games {
+  .title-purple {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin: 15px 0;
+    color: var(--purple);
+  }
+}
