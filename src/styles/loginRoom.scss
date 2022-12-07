@@ -1,0 +1,44 @@
+section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    .content {
+        text-align: center;
+        
+        .login-buttons {
+            display: border-box;
+            align-items: center;
+            justify-content: center;
+            
+            button {
+                cursor: pointer;
+                width: 322px;
+                font-weight: bold;
+                padding: 7.5px;
+                border-radius: 26px;
+                color: var(--snow);            
+                align-items: center;
+                justify-content: center;
+                border: none;
+                margin: 10px;
+                
+                img {
+                    width: 20px;
+                    margin-right: 15px;
+                }
+            }
+            
+            #google-button {
+                background: var(--google-red);
+            }
+            
+            #facebook-button {
+                background: var(--facebook-blue);
+            }
+        }
+    }   
+}

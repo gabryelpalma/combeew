@@ -18,14 +18,16 @@
   &.outlined {
     background: none;
     border: 3px solid var(--light-gray);
+    font-weight: 500;
+    border-radius: 12px;
   }
 
-  &.marked {
+  &.outlined:hover {
     background: none;
     border: 3px solid var(--yellow);
     color: var(--yellow);
   }
-
+  
   &.invisible {
     background: none;
     font-size: 12px;

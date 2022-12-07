@@ -1,0 +1,66 @@
+#header {
+  background-color: #1f1f1f;
+  padding-bottom: 20px;
+
+  .row {
+    .subrow {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.games {
+    p {
+      font-weight: 900;
+      color: var(--dark-gray);
+      margin-bottom: 20px
+    }
+    
+    .cards {
+      overflow: hidden;
+      max-width: 700px;
+      width: 100%;
+      margin: 40px auto 20px auto;
+
+      .card:nth-child(1),
+      .card:nth-child(2),
+      .card:nth-child(3) {
+        margin-right: 25px;
+    }
+    
+    .card:nth-child(1){
+      cursor: pointer;
+    }
+    
+    .cards-row:nth-child(1),
+    .cards-row:nth-child(2),
+    .cards-row:nth-child(3),
+    .cards-row:nth-child(4) {
+      margin-bottom: 30px
+    }
+    
+    .showmore{
+      display: none;
+    }
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  #header {
+    background-color: #1f1f1f;
+    padding-bottom: 20px;
+
+    .row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      subrow {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

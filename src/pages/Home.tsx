@@ -35,7 +35,9 @@ export function Home() {
             </p>
             <div className="buttons">
               <Button onClick={goToLoginRoom}>junte-se a nós</Button>
-              <Button isInvisible>já sou membro</Button>
+              <Button onClick={goToLoginRoom} isInvisible>
+                já sou membro
+              </Button>
             </div>
           </div>
           <img src={Monster} alt="Monstro da Combeew" />
@@ -129,8 +131,10 @@ export function Home() {
         </div>
 
         <div className="buttons">
-          <Button>junte-se a nós</Button>
-          <Button isInvisible>já sou membro</Button>
+          <Button onClick={goToLoginRoom}>junte-se a nós</Button>
+          <Button onClick={goToLoginRoom} isInvisible>
+            já sou membro
+          </Button>
         </div>
       </div>
 

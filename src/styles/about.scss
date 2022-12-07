@@ -1,0 +1,90 @@
+header {
+  background: var(--purple);
+  padding-bottom: 1px;
+}
+
+#inauguration {
+  height: 400px;
+  padding: 124px 20px;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../assets/img/background-about.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 2000px;
+
+  .title-white {
+    max-width: 500px;
+    margin: auto;
+    font-size: 35px;
+    font-weight: 900;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .title-yellow {
+    max-width: 500px;
+    margin: auto;
+    font-size: 35px;
+    font-weight: 900;
+    text-align: center;
+    color: var(--yellow);
+  }
+}
+
+#beginning {
+  text-align: center;
+
+  .title-purple {
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: 900;
+    color: var(--purple);
+  }
+
+  img {
+    margin: 35px auto;
+    width: 300px;
+  }
+
+  .paragraph {
+    font-weight: 400;
+    color: var(--dark-gray);
+    width: 500px;
+    margin: auto;
+
+    strong {
+      font-weight: 700;
+    }
+  }
+
+  Button:nth-child(2) {
+    background: var(--purple);
+  }
+}
+
+#explication {
+  text-align: center;
+  align-items: center;
+
+  .title-purple {
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: 900;
+    color: var(--purple);
+  }
+
+  .paragraph {
+    font-weight: 400;
+    color: var(--dark-gray);
+    width: 500px;
+    margin: auto;
+
+    strong {
+      font-weight: 700;
+    }
+  }
+
+  .comb {
+    margin: 20px 10px;
+  }
+}
